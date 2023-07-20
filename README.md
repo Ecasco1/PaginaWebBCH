@@ -6,7 +6,7 @@ Para ejecutar este proceso desde una computadora, una vez descargados todos los 
 2) Instalar [Julia](https://julialang.org/downloads/) y luego instalar las librerías "CSV", "DataFrames", y "RCall"; y
 3) Sustituir el directorio en el código del archivo "BCH_Webpage.qmd"; en este caso, el que está guardado es "wd = "C:/IE/BCH_Webpage""
 
-El procedimiento se ejecuta a través de los códigos en "BCH_Webpage.qmd"; si no se tiene instalado Quarto, puede ejecutarse directamente desde Julia, pegando estas líneas en el prompt:
+El procedimiento se ejecuta a través de los códigos en "BCH_Webpage.qmd"; si no se tiene instalado Quarto, puede ejecutarse directamente desde Julia, pegando estas líneas en el prompt (cambiando previamente la ruta especificada en la variable "wd":
 
 ```
 using CSV,DataFrames,RCall
