@@ -1,8 +1,8 @@
 # PaginaWebBCH
-Proceso para descargar y procesar datos desde la página web del Banco Central de Honduras usando Julia, teniendo como resultado un solo archivo.
+Proceso para descargar y procesar datos desde la página web del [Banco Central de Honduras](www.bch.hn) usando Julia, teniendo como resultado un solo archivo.
 
 Para ejecutar este proceso desde una computadora, una vez descargados todos los archivos que contiene este repositorio, se necesitan tres cosas:
-1) Instalar R y los paquetes "readxl" y "rio"
+1) Instalar [R](https://cran.r-project.org/bin/windows/base/) y los paquetes "readxl" y "rio"
 2) Instalar [Julia](https://julialang.org/downloads/) y luego instalar las librerías "CSV", "DataFrames", y "RCall"; y
 3) Sustituir el directorio en el código del archivo "BCH_Webpage.qmd"; en este caso, el que está guardado es "wd = "C:/IE/BCH_Webpage""
 
