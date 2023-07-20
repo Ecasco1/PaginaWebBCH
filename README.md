@@ -21,4 +21,6 @@ CSV.write(
     delim = ";")
 ````
 
+Las funciones utilizadas se encuentran en la carpeta "functions", archivos "fn_process.jl" y "fn_get_data.jl".
+
 Los datos actualizados se guardan en la carpeta "data", archivo "database.csv".
